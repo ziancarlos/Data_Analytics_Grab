@@ -1,0 +1,11 @@
+prefix=/Users/zian/Desktop/Learn Code/Data Science And Machine Learning Purwadhika/Data Analytics Grab/grab
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/zian/Desktop/Learn Code/Data Science And Machine Learning Purwadhika/Data Analytics Grab/grab/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.8
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
